@@ -29,12 +29,12 @@ const characters = [
     },
 ];
 
-
-
-
-
-
-
-
-
-
+//***MAP***
+//1. Get array of all names
+console.log(characters.map(item => item.name))
+//2. Get array of all heights
+console.log(characters.map(item => item.height))
+//3. Get array of objects with just name and height properties
+console.log(characters.map(item => `${item.name} is ${item.height} in tall`))
+//4. Get array of all first names
+console.log(characters.map(item => item.name.split(' ')[0]))

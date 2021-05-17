@@ -29,12 +29,12 @@ const characters = [
     },
 ];
 
-
-
-
-
-
-
-
-
-
+//***FILTER***
+//1. Get characters with mass greater than 100
+console.log(characters.filter(char=> char.mass >100))
+//2. Get characters with height less than 200
+console.log(characters.filter(char => char.height < 200))
+//3. Get all male characters
+console.log(characters.filter(char=> char.gender == "male"))
+//4. Get all female characters
+console.log(characters.filter(char => char.gender == "female"))

@@ -29,12 +29,12 @@ const characters = [
     },
 ];
 
-
-
-
-
-
-
-
-
-
+//***SORT***
+//1. Sort by mass
+console.log(characters.sort((a,b) => a.mass-b.mass))
+//2. Sort by height
+console.log(characters.sort((a,b) => a.height-b.height))
+//3. Sort by name
+console.log(characters.sort((a,b) => a.name < b.name ? -1 : 1))
+//4. Sort by gender
+console.log(characters.sort((a,b) => a.gender<b.gender ? -1 : 1))
